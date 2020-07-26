@@ -1,11 +1,72 @@
 ﻿
 /* Info
-================================================== 
-     Author: http://bootstraptemplates.net 
- ================================================== 
+==================================================
+     Author: http://bootstraptemplates.net
+ ==================================================
  Info */
 
 /*Write your custom code here.*/
 
 
+.header-custom{
+  top:15px!important;
+}
 
+.social-media-custom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-custom{
+  padding-top: 64px!important;
+  padding-bottom: 48px!important;
+}
+
+.home-partners-custom{
+  padding-top: 0rem!important;
+  padding-bottom: 4rem!important;
+}
+
+.home-aboutus-custom{
+  padding-bottom: 7rem!important;
+}
+
+.home-stats-custom{
+  padding-top: 12rem!important;
+  padding-bottom: 0px;
+}
+
+.home-statsicons-custom{
+  color: #77838f;
+  padding-bottom: 12px;
+}
+
+.home-email-custom{
+  line-height: 24px;
+}
+
+.home-emailformp-custom{
+  margin-bottom: 4px!important;
+}
+
+.home-emailform-custom{
+  margin-left: -4px;
+}
+
+.home-emailform2-custom{
+  border-radius: 1rem!important;
+}
+
+.home-carouselformat-custom{
+  margin-bottom:10rem!important;
+}
+
+.home-carousel-custom{
+  padding-top:120px;
+}
+
+.home-chevronpos-custom{
+  position: absolute;
+  top: 120px;
+}
