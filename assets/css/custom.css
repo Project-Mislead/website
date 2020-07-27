@@ -33,13 +33,26 @@
 }
 
 .home-stats-custom{
-  padding-top: 12rem!important;
-  padding-bottom: 0px;
+  margin-top: 7rem!important;
+  padding-bottom: 4rem!important;
 }
 
 .home-statsicons-custom{
   color: #77838f;
   padding-bottom: 12px;
+}
+
+.home-carouselformat-custom{
+  margin-bottom:10rem!important;
+}
+
+.home-carousel-custom{
+  padding-top:120px;
+}
+
+.home-chevronpos-custom{
+  position: absolute;
+  top: 120px;
 }
 
 .home-email-custom{
@@ -58,15 +71,15 @@
   border-radius: 1rem!important;
 }
 
-.home-carouselformat-custom{
-  margin-bottom:10rem!important;
+
+.aboutus-bg-custom{
+  min-height: 750!important;
 }
 
-.home-carousel-custom{
-  padding-top:120px;
-}
+.aboutus-infoblock-custom{
+  padding-top: 7rem!important;
+  padding-bottom: 4rem!important;
 
-.home-chevronpos-custom{
-  position: absolute;
-  top: 120px;
+  margin-top: 4rem!important;
+  margin-bottom: 0rem!important;
 }
