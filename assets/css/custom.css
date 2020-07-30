@@ -7,6 +7,20 @@
 
 /*Write your custom code here.*/
 
+.home-background-custom{
+   margin-top:8rem;
+   margin-bottom:12rem;
+}
+
+.header-transparent-custom{
+  background: none!important;
+  background-color: #FFFFFF7f!important;
+}
+
+html.sticky-header-reveal.sticky-header-active #header .header-transparent-custom {
+  background: none!important;
+  background-color: white!important;
+}
 
 .header-custom{
   top:15px!important;
@@ -24,7 +38,7 @@
 }
 
 .home-partners-custom{
-  padding-top: 0rem!important;
+  padding-top: 10rem!important;
   padding-bottom: 4rem!important;
 }
 
@@ -33,7 +47,7 @@
 }
 
 .home-stats-custom{
-  margin-top: 7rem!important;
+  margin-bottom: 7rem!important;
   padding-bottom: 4rem!important;
 }
 
