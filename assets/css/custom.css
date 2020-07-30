@@ -12,6 +12,11 @@
    margin-bottom:12rem;
 }
 
+.home-backimg-custom{
+   width:400px;
+   height:400px;
+}
+
 .header-transparent-custom{
   background: none!important;
   background-color: #FFFFFF7f!important;
