@@ -35,8 +35,72 @@
 <body>
 
     <div class="wrapper body">
-        <div id = "header"></div>
-
+      <header id="header" class="header-effect-shrink navbar-custom" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}" style="height: 91px;">
+          <div class="header-body">
+              <div class="header-container container">
+                <div class="header-row">
+                    <div class="header-column">
+                        <div class="header-row">
+                            <div class="header-logo">
+                                <a href="index.html">
+                                    <img alt="PM Logo" width="180" height="50" data-sticky-width="120" data-sticky-height="45" data-sticky-top="26" src="assets/img/logo.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-column justify-content-end mr-lg-4">
+                        <div class="header-row">
+                            <div class="header-nav header-nav-links order-2 order-lg-1">
+                                <div class="header-nav-main header-nav-main-clone-items header-nav-main-slide header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                                    <nav class="collapse">
+                                        <ul class="nav nav-pills" id="mainNav">
+                                            <li class="dropdown dropdown-mega">
+                                                <a id="index" class="dropdown-item navbar-tabs-custom" href="index.html">
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="about_us" class="dropdown-item navbar-tabs-custom dropdown-toggle" href="aboutus.html">
+                                                    Our Story
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a id="about_us" class="dropdown-item navbar-tabs-custom" href="aboutus.html">About Us</a></li>
+                                                    <li><a id="team" class="dropdown-item navbar-tabs-custom" href="team.html">Team</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="outreach" class="dropdown-item navbar-tabs-custom" href="outreach.html">
+                                                    Outreach
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="partners" class="dropdown-item navbar-tabs-custom" href="partners.html">
+                                                    Partners
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="press" class="dropdown-item navbar-tabs-custom" href="press.html">
+                                                    Press
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="contact" class="dropdown-item navbar-tabs-custom active" href="contact.html">
+                                                    Contact Us
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </header>
         <main class="main-content">
           <section class="section first-section-custom">
               <div class="container">
@@ -147,7 +211,6 @@
     <!-- Theme Custom -->
     <script src="assets/js/custom.js"></script>
     <script>
-      $('#header').load('header.html');
       $('#footer').load('footer.html');
     </script>
 </body>
