@@ -8,8 +8,9 @@
 /*Write your custom code here.*/
 
 .home-background-custom{
-   margin-top:8rem;
-   margin-bottom:8rem;
+   /*margin-top:8rem;*/
+   padding-bottom:5rem;
+   margin-bottom:2rem;
 }
 
 .home-backimg-custom{
