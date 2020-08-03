@@ -1,16 +1,13 @@
-﻿
-/* Info
-==================================================
-     Author: http://bootstraptemplates.net
- ==================================================
- Info */
-
-/*Write your custom code here.*/
+.navbar-tabs-custom{
+  font-size: 16px!important;
+  font-weight: 400!important;
+}
 
 .home-background-custom{
-   /*margin-top:8rem;*/
-   padding-bottom:5rem;
+   margin-top:0rem;
    margin-bottom:2rem;
+   padding-top:4rem;
+   padding-bottom:5rem;
 }
 
 .home-backimg-custom{
