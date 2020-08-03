@@ -1,10 +1,15 @@
+.navbar-custom{
+  position:fixed!important;
+  top:0px;
+}
+
 .navbar-tabs-custom{
   font-size: 16px!important;
   font-weight: 400!important;
 }
 
 .first-section-custom{
-  padding-top:9rem;
+  padding-top:9rem!important;
 }
 
 .map-section-custom{
@@ -14,7 +19,7 @@
 .home-background-custom{
    margin-top:0rem;
    margin-bottom:2rem;
-   padding-top:4rem;
+   padding-top:6rem!important;
    padding-bottom:5rem;
 }
 
