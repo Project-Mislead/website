@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html class="sticky-header-reveal">
+<html class="sticky-header-enabled">
 <head>
     <meta charset="utf-8">
     <title>Project Mislead</title>
@@ -33,24 +33,90 @@
 </head>
 <body>
 
-    <div class="wrapper body">
-        <div id = "header"></div>
+    <div class="wrapper">
+      <header id="header" class="header-effect-shrink navbar-custom" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}" style="height: 91px;">
+          <div class="header-body">
+              <div class="header-container container">
+                <div class="header-row">
+                    <div class="header-column">
+                        <div class="header-row">
+                            <div class="header-logo">
+                                <a href="index.html">
+                                    <img alt="PM Logo" width="180" height="50" data-sticky-width="160" data-sticky-height="45" data-sticky-top="0" src="assets/img/logo.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-column justify-content-end mr-lg-4">
+                        <div class="header-row">
+                            <div class="header-nav header-nav-links order-2 order-lg-1">
+                                <div class="header-nav-main header-nav-main-clone-items header-nav-main-slide header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                                    <nav class="collapse">
+                                        <ul class="nav nav-pills" id="mainNav">
+                                            <li class="dropdown dropdown-mega">
+                                                <a id="index" class="dropdown-item navbar-tabs-custom active" href="index.html">
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="about_us" class="dropdown-item navbar-tabs-custom dropdown-toggle" href="aboutus.html">
+                                                    Our Story
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a id="about_us" class="dropdown-item navbar-tabs-custom" href="aboutus.html">About Us</a></li>
+                                                    <li><a id="team" class="dropdown-item navbar-tabs-custom" href="team.html">Team</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="outreach" class="dropdown-item navbar-tabs-custom" href="outreach.html">
+                                                    Outreach
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="partners" class="dropdown-item navbar-tabs-custom" href="partners.html">
+                                                    Partners
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="press" class="dropdown-item navbar-tabs-custom" href="press.html">
+                                                    Press
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a id="contact" class="dropdown-item navbar-tabs-custom" href="contact.html">
+                                                    Contact Us
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </header>
         <main class="main-content">
-            <section class="pt-2 home-background-custom">
+            <section class="pt-2 home-background-custom bg-primary">
                 <div class="container">
                     <div class="row align-items-center pt-8">
-                        <div class="col-sm-12 col-lg-7">
+                        <div class="col-sm-12 col-lg-5 text-center text-lg-left">
                             <img class = "home-backimg-custom" src="./assets/img/hero/svg3_1.jpg">
                         </div>
-                        <div class="col-sm-12 col-lg-5">
+                        <div class="col-sm-12 col-lg-7">
                             <div class="clearfix text-center text-lg-left">
-                                <h2 class="display-4">
-                                    Do you need <br />
-                                    a new web <br />
-                                    <span class="text-primary" data-typing="design?, app?, subscription?" data-back-speed="75"></span>
-
+                                <h2 class="display-4 text-white backspace-block-custom">
+                                    Ending lead and heavy metal poisoning by<br>
+                                    <span class="text-white" data-typing="teaching the next <br>generation., empowering youth., inspiring <br>communities." data-back-speed="75"></span>
                                 </h2>
-                                <p class="mt-3 mb-4"> We help you create and manage all you projects including team and company wide managements.</p>
+                                <!--<h2 class="display-4 text-primary" style="z-index:2; position:absolute;">
+                                    Ending lead and heavy metal poisoning by teaching the next generation.
+                                </h2>-->
+                                <p class="mt-3 mb-4 text-white">Project Mislead is dedicated to providing much-needed education on lead and heavy metal poisoning, created and supported by youth activists and leaders in neighborhoods nationally.</p>
                             </div>
                         </div>
                     </div>
@@ -70,15 +136,8 @@
                         </div>
                         <div class="col-md-7">
                             <p class="mb-3">
-                                Project Mislead is a nation-wide, not-for-profit initiative to
-                                organize and partner with grassroots activists to educate others about lead and
-                                heavy metal poisoning in localities and states. We are built on the philosophy
-                                of empowering those in local communities by providing educational strategies and
-                                materials in order to foster growth - it is unique in this sense because no nationwide
-                                organization exists which focuses exclusively on education as a means for heavy metal
-                                poisoning prevention.
+                              Project Mislead is a national initiative to educate others about lead and heavy metal poisoning in communities everywhere. Our philosophy is simple: use existing coalitions and support systems to spread the word about the so-called “silent epidemic” wreaking havoc across homes in America. We position students, activists, and community leaders as educators to make lead poisoning history.
                             </p>
-
                             <a href="aboutus.html" class="anim-link-2 anim-link-2-primary common-Link--arrow common-BodyText">Learn more about us </a>
                         </div>
                     </div>
@@ -87,18 +146,18 @@
                         <div class="col-sm-6 col-md-6 col-lg-4">
                             <div class="clearfix mb-5 mb-lg-0">
                                 <img class="icon icon-lg bg-primary mb-2 pb-2" src="assets/img/icons/devices/diagnostics.svg" alt="Icon" data-inject-svg />
-                                <h3 class="h5 mb-3 mt-2">Point 1 about us <br /> more info</h3>
+                                <h3 class="h5 mb-3 mt-2">Education</h3>
                                 <p>
-                                    velna vitae auctor integer congue magna at pretium purus pretium ligula rutrum luctus risus ultrice
+                                  Using materials supported by experts and industry leaders on Project Mislead’s team, our community ambassadors work in their localities to teach others.
                                 </p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-4">
                             <div class="clearfix mb-5 mb-lg-0">
                                 <img class="icon icon-lg bg-primary mb-2 pb-2" src="assets/img/icons/design/interselect.svg" alt="Icon" data-inject-svg />
-                                <h3 class="h5 mb-3 mt-2">Point 2 about us <br /> more info</h3>
+                                <h3 class="h5 mb-3 mt-2">Engagement</h3>
                                 <p>
-                                    An enim nullam tempor sapien gravida donec enim ipsum blandit porta justo integer odio velna vitae auctor
+                                  We create authentic interactions with everyone we meet, from students to teachers to parents to government officials.
                                 </p>
                             </div>
                         </div>
@@ -280,69 +339,7 @@
             </section>
 
         </main>
-        <!-- FOOTER -->
-        <footer class="container border-top">
-            <div class="container pt-10 pb-9 footer-custom">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <img alt="Vertex" src="../assets/img/logo.png" class="mb-4" width="120">
-                        <p>Insert smth catchy</p>
-                        <div class="social">
-                            <a class="social-facebook m-0" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="social-twitter m-0" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="social-linkedin m-0" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="social-instagram m-0" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <h3 class="h6 mb-3">
-                            Quick Links
-                        </h3>
-                        <ul class="list-unstyled mb-0 text-white-50">
-                            <li><a class="m-list--link" href="index.html">Home</a></li>
-                            <li><a class="m-list--link" href="aboutus.html">About Us</a></li>
-                            <li><a class="m-list--link" href="team.html">Team</a></li>
-                            <li><a class="m-list--link" href="outreach.html">Outreach</a></li>
-                            <li><a class="m-list--link" href="partners.html">Partners</a></li>
-                            <li><a class="m-list--link" href="press.html">Press</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h3 class="h6 mb-3">
-                            Contact Us
-                        </h3>
-                        <address class="fs-14">
-                            <strong>Reach Out</strong><br/>
-                            <a class="m-link home-email-custom" href="mailto:projectmislead@gmail.com">projectmislead@gmail.com</a>
-                        </address>
-                        <address class="fs-14">
-                          <strong>Get Updates</strong><br/>
-                          <p class="home-emailformp-custom">Enter your email to hear more</p>
-                          <form class="input-round home-emailform-custom" novalidate="novalidate">
-                              <div class="form-group input-group bg-white home-emailform2-custom">
-                                  <input type="text" class="form-control height-inherit">
-                                  <div class="input-group-append">
-                                      <button class="btn btn-light home-emailform2-custom" type="button"><i class="fas fa-paper-plane"></i></button>
-                                  </div>
-                              </div>
-                          </form>
-                        </address>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Copyright -->
-            <div class="container m-gab-1 border-top">
-
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p><span class="fs-17">©</span> 2020 Project Mislead. All rights reserved.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- End Copyright -->
-        </footer>
-        <!-- END FOOTER -->
+        <div id="footer"></div>
     </div>
 
     <!-- Libs -->
@@ -365,7 +362,7 @@
     <!-- Theme Custom -->
     <script src="assets/js/custom.js"></script>
     <script>
-      $('#header').load('header.html');
+      $('#footer').load('footer.html');
     </script>
 </body>
 </html>
