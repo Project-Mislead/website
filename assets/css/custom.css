@@ -29,15 +29,10 @@
    height:300px;
 }
 
-.header-transparent-custom{
-  background: none!important;
-  background-color: #FFFFFF7f!important;
+.backspace-block-custom{
+  height: 340px;
 }
 
-html.sticky-header-reveal.sticky-header-active #header .header-transparent-custom {
-  background: none!important;
-  background-color: white!important;
-}
 
 .header-custom{
   top:15px!important;
