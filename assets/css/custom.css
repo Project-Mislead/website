@@ -47,6 +47,10 @@ button.bg-primary:hover{
   background: #3992c8!important;
 }
 
+.anim-link-2.anim-link-2-primary {
+  background-image: linear-gradient(to right,#3992c8 0%,#3992c8 100%);
+}
+
 .text-primary{
   color:#3992c8!important;
 }
