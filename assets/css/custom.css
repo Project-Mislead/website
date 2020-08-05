@@ -196,6 +196,11 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
   margin:auto;
 }
 
+.aboutus-statstext-custom{
+  padding:2rem 2rem 4rem;
+  margin:auto;
+}
+
 .officer-bio-custom{
    padding:1.25rem .5rem;
 }
