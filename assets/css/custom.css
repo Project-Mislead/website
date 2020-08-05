@@ -90,6 +90,10 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
   font-weight: 400!important;
 }
 
+.navbar-tabs-custom:focus{
+  color:#3992c8!important;
+}
+
 .first-section-custom{
   padding-top:5rem!important;
 }
@@ -186,18 +190,17 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 .aboutus-infoblock-custom{
   padding-top: 7rem!important;
   padding-bottom: 4rem!important;
-
   margin-top: 4rem!important;
   margin-bottom: 0rem!important;
 }
 
 .aboutus-stats-custom{
-  padding:2rem 4rem;
+  padding:4rem 0rem;
   margin:auto;
 }
 
 .aboutus-statstext-custom{
-  padding:2rem 2rem 4rem;
+  padding:0rem 2rem 6rem;
   margin:auto;
 }
 
