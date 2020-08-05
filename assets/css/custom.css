@@ -1,9 +1,68 @@
-==================================================
-     Author: http://bootstraptemplates.net
- ==================================================
- Info */
-
 /*Write your custom code here.*/
+
+.typed-cursor{
+  color:white!important;
+}
+
+.dropdown-item:hover{
+  color:#3992c8!important;
+}
+
+.active{
+  color:#3992c8!important;
+}
+
+.dropdown-menu{
+  border-top-color:#3992c8!important;
+}
+
+button.bg-primary:hover{
+  background: #3992c8!important;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-pill{
+    background-color: #3992c8!important;
+  }
+  .active{
+    color:white!important;
+    background-color: #3992c8!important;
+  }
+  .dropdown-item:hover {
+    color: white!important;
+    background-color: #3992c8!important;
+  }
+  .header-nav-main a{
+    color: #3992c8!important;
+  }
+  button.bg-primary:focus {
+    background-color: #3992c8!important;
+  }
+}
+.scroll-to-top{
+  background-color:#3992c8!important;
+}
+
+.header-btn-collapse-nav {
+  background: #3992c8!important;
+}
+
+.text-primary{
+  color:#3992c8!important;
+}
+
+.text-primary2{
+  color:#3992c8!important;
+}
+
+.bg-primary{
+  background-color:#3992c8!important;
+}
+
+.btn-primary{
+  background-color:#3992c8!important;
+  border-color:#3992c8!important;
+}
 
 .home-backimg-custom{
    width:400px;
@@ -72,12 +131,12 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 }
 
 .home-partners-custom{
-  padding-top: 10rem!important;
+  padding-top: 4rem!important;
   padding-bottom: 4rem!important;
 }
 
 .home-aboutus-custom{
-  padding-bottom: 7rem!important;
+  padding-bottom: 3rem!important;
 }
 
 .home-stats-custom{
@@ -130,4 +189,13 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 
   margin-top: 4rem!important;
   margin-bottom: 0rem!important;
+}
+
+.aboutus-stats-custom{
+  padding:2rem 4rem;
+  margin:auto;
+}
+
+.officer-bio-custom{
+   padding:1.25rem .5rem;
 }
