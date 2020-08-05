@@ -102,6 +102,18 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
   padding-top:5rem!important;
 }
 
+.custom-section-3::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(59,101,196, 0.7);
+  transition: all .3s linear;
+}
+
 .map-section-custom{
   padding: 1rem 0rem 8rem;
 }
@@ -119,7 +131,7 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 }
 
 .backspace-block-custom{
-  height: 340px;
+  height: 280px;
 }
 
 
@@ -199,8 +211,9 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 }
 
 .aboutus-stats-custom{
-  padding:4rem 0rem;
+  padding:4rem 0rem 1rem;
   margin:auto;
+  font-size:7rem;
 }
 
 .aboutus-statstext-custom{
