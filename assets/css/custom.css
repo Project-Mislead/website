@@ -5,67 +5,67 @@
 }
 
 .dropdown-item:hover{
-  color:#3992c8!important;
+  color:#3b65c4!important;
 }
 
 .active{
-  color:#3992c8!important;
+  color:#3b65c4!important;
 }
 
 .dropdown-menu{
-  border-top-color:#3992c8!important;
+  border-top-color:#3b65c4!important;
 }
 
 button.bg-primary:hover{
-  background: #3992c8!important;
+  background: #3b65c4!important;
 }
 
 @media only screen and (max-width: 991px) {
   .nav-pill{
-    background-color: #3992c8!important;
+    background-color: #3b65c4!important;
   }
   .active{
     color:white!important;
-    background-color: #3992c8!important;
+    background-color: #3b65c4!important;
   }
   .dropdown-item:hover {
     color: white!important;
-    background-color: #3992c8!important;
+    background-color: #3b65c4!important;
   }
   .header-nav-main a{
-    color: #3992c8!important;
+    color: #3b65c4!important;
   }
   button.bg-primary:focus {
-    background-color: #3992c8!important;
+    background-color: #3b65c4!important;
   }
 }
 .scroll-to-top{
-  background-color:#3992c8!important;
+  background-color:#3b65c4!important;
 }
 
 .header-btn-collapse-nav {
-  background: #3992c8!important;
+  background: #3b65c4!important;
 }
 
 .anim-link-2.anim-link-2-primary {
-  background-image: linear-gradient(to right,#3992c8 0%,#3992c8 100%);
+  background-image: linear-gradient(to right,#3b65c4 0%,#3b65c4 100%);
 }
 
 .text-primary{
-  color:#3992c8!important;
+  color:#3b65c4!important;
 }
 
 .text-primary2{
-  color:#3992c8!important;
+  color:#3b65c4!important;
 }
 
 .bg-primary{
-  background-color:#3992c8!important;
+  background-color:#3b65c4!important;
 }
 
 .btn-primary{
-  background-color:#3992c8!important;
-  border-color:#3992c8!important;
+  background-color:#3b65c4!important;
+  border-color:#3b65c4!important;
 }
 
 .home-backimg-custom{
@@ -95,7 +95,7 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 }
 
 .navbar-tabs-custom:focus{
-  color:#3992c8!important;
+  color:#3b65c4!important;
 }
 
 .first-section-custom{
