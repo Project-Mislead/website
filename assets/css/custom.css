@@ -211,7 +211,7 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 }
 
 .aboutus-stats-custom{
-  padding:4rem 0rem 1rem;
+  padding:4rem 0rem 0rem;
   margin:auto;
   font-size:7rem;
 }
