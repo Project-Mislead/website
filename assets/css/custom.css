@@ -35,6 +35,9 @@ button.bg-primary:hover{
   .header-nav-main a{
     color: #3b65c4!important;
   }
+  .header-nav-main>.dropdown-submenu a{
+    color: white!important;
+  }
   button.bg-primary:focus {
     background-color: #3b65c4!important;
   }
