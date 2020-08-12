@@ -134,9 +134,41 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 }
 
 .backspace-block-custom{
-  height: 280px;
+  height: 200%;
 }
 
+.home-opening{
+  padding: 0rem 9rem;
+}
+
+@media screen and (max-width: 991px) {
+  .home-opening{
+    padding: 2rem 5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-opening{
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .home-opening{
+    padding: 3rem 1rem;
+  }
+}
+
+.backspace-formatting-custom{
+  z-index:10;
+  position: absolute;
+  width: 100%;
+}
+
+.backspace-spacing-custom{
+  z-index: 0;
+  visibility: hidden;
+}
 
 .header-custom{
   top:15px!important;
