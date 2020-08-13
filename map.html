@@ -87,12 +87,14 @@
     }
 
   $("path, circle").hover(function(e) {
-    $('#info-box').css('display','block');
     var curr_region = states[$(this).attr("id")];
     var region_states = regions[curr_region];
     region_states.forEach(i => document.getElementById(i).setAttribute("style", "fill: #3b65c4; stroke: #3b65c4; stroke-width:3px;"));
     var info_html = "<p>" + curr_region +" Region</p>";
+    console.log(info_html)
     $('#info-box').html(info_html);
+    $('#info-box').css('display','block');
+    console.log(document.getElementById('#info-box'));
   });
 
   $("path, circle").mouseleave(function(e) {
