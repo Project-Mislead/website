@@ -121,6 +121,16 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
   padding: 1rem 0rem 5rem;
 }
 
+.map-text-custom{
+  text-align: right;
+}
+
+@media screen and (max-width: 991px) {
+  .map-text-custom{
+    text-align: center;
+  }
+}
+
 .home-background-custom{
    margin-top:0rem;
    margin-bottom:2rem;
