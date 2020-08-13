@@ -568,14 +568,14 @@ Strut = {
                             e.image.className = "hurdles-image",
                             e.image.src = t.content[r].src,
                             e.el.setAttribute("data-trigger", "hover"),
-                            e.el.setAttribute("data-toggle", "popover"), 
-                            e.el.setAttribute("data-placement", "top"), 
-                            e.el.setAttribute("data-placement", "top"), 
+                            e.el.setAttribute("data-toggle", "popover"),
+                            e.el.setAttribute("data-placement", "top"),
+                            e.el.setAttribute("data-placement", "top"),
                             e.el.setAttribute("title", t.content[r].title),
-                            e.el.setAttribute("data-content", t.content[r].job),  
+                            e.el.setAttribute("data-content", t.content[r].job),
                             e.el.appendChild(e.image),
                             e.el.className = "" + t.classPrefix + t.content[r].index + " " + t.classPrefix,
-                            t.render(e), 
+                            t.render(e),
                             t.el.appendChild(e.el)
                     })
                 }
