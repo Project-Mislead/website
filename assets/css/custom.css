@@ -1,9 +1,75 @@
-==================================================
-     Author: http://bootstraptemplates.net
- ==================================================
- Info */
-
 /*Write your custom code here.*/
+
+.typed-cursor{
+  color:white!important;
+}
+
+.dropdown-item:hover{
+  color:#3b65c4!important;
+}
+
+.active{
+  color:#3b65c4!important;
+}
+
+.dropdown-menu{
+  border-top-color:#3b65c4!important;
+}
+
+button.bg-primary:hover{
+  background: #3b65c4!important;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-pill{
+    background-color: #3b65c4!important;
+  }
+  .active{
+    color:white!important;
+    background-color: #3b65c4!important;
+  }
+  .dropdown-item:hover {
+    color: white!important;
+    background-color: #3b65c4!important;
+  }
+  .header-nav-main a{
+    color: #3b65c4!important;
+  }
+  .header-nav-main>.dropdown-submenu a{
+    color: white!important;
+  }
+  button.bg-primary:focus {
+    background-color: #3b65c4!important;
+  }
+}
+.scroll-to-top{
+  background-color:#3b65c4!important;
+}
+
+.header-btn-collapse-nav {
+  background: #3b65c4!important;
+}
+
+.anim-link-2.anim-link-2-primary {
+  background-image: linear-gradient(to right,#3b65c4 0%,#3b65c4 100%);
+}
+
+.text-primary{
+  color:#3b65c4!important;
+}
+
+.text-primary2{
+  color:#3b65c4!important;
+}
+
+.bg-primary{
+  background-color:#3b65c4!important;
+}
+
+.btn-primary{
+  background-color:#3b65c4!important;
+  border-color:#3b65c4!important;
+}
 
 .home-backimg-custom{
    width:400px;
@@ -31,12 +97,38 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
   font-weight: 400!important;
 }
 
+.navbar-tabs-custom:focus{
+  color:#3b65c4!important;
+}
+
 .first-section-custom{
   padding-top:5rem!important;
 }
 
+.custom-section-3::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(59,101,196, 0.7);
+  transition: all .3s linear;
+}
+
 .map-section-custom{
-  padding: 1rem 0rem 8rem;
+  padding: 1rem 0rem 5rem;
+}
+
+.map-text-custom{
+  text-align: right;
+}
+
+@media screen and (max-width: 991px) {
+  .map-text-custom{
+    text-align: center;
+  }
 }
 
 .home-background-custom{
@@ -52,9 +144,41 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 }
 
 .backspace-block-custom{
-  height: 340px;
+  height: 200%;
 }
 
+.home-opening{
+  padding: 0rem 9rem;
+}
+
+@media screen and (max-width: 991px) {
+  .home-opening{
+    padding: 2rem 5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-opening{
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .home-opening{
+    padding: 3rem 1rem;
+  }
+}
+
+.backspace-formatting-custom{
+  z-index:10;
+  position: absolute;
+  width: 100%;
+}
+
+.backspace-spacing-custom{
+  z-index: 0;
+  visibility: hidden;
+}
 
 .header-custom{
   top:15px!important;
@@ -72,12 +196,12 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 }
 
 .home-partners-custom{
-  padding-top: 10rem!important;
+  padding-top: 4rem!important;
   padding-bottom: 4rem!important;
 }
 
 .home-aboutus-custom{
-  padding-bottom: 7rem!important;
+  padding-bottom: 3rem!important;
 }
 
 .home-stats-custom{
@@ -127,7 +251,41 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
 .aboutus-infoblock-custom{
   padding-top: 7rem!important;
   padding-bottom: 4rem!important;
-
   margin-top: 4rem!important;
   margin-bottom: 0rem!important;
+}
+
+.aboutus-stats-custom{
+  padding:4rem 0rem 0rem;
+  margin:auto;
+  font-size:7rem;
+}
+
+.aboutus-statstext-custom{
+  padding:0rem 2rem 6rem;
+  margin:auto;
+}
+
+.officer-bio-custom{
+   padding:1.25rem .5rem;
+}
+
+.img-heightequal-custom{
+  height: 0;
+  padding-top: 100%;
+}
+
+.img-team-custom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.involved-apply-custom{
+  vertical-align: bottom;
+  padding-top: 2rem;
+  margin: 1rem 0rem;
 }
