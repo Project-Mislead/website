@@ -26,14 +26,19 @@ $("path, circle").hover(function(e) {
   var info_html = "<p>" + curr_region +" Region</p>";
   $('#info-box').html(info_html);
   $('#info-box').css('display','block');
-  var temp = document.getElementById("regions");
-  console.log(temp);
+  document.getElementById(curr_region).setAttribute("style", "text-shadow: 0px 0px 5px #3b65c4");
 });
 
 $("path, circle").mouseleave(function(e) {
   Object.keys(states).forEach(i => document.getElementById(i).setAttribute("style", fill="#D3D3D3"));
   document.getElementById("circle60").setAttribute("style", "fill: #D3D3D3;");
   $('#info-box').css('display','none');
+  document.getElementById("Pacific").setAttribute("style", "text-shadow: none");
+  document.getElementById("Frontier").setAttribute("style", "text-shadow: none");
+  document.getElementById("Midwest").setAttribute("style", "text-shadow: none");
+  document.getElementById("Southern").setAttribute("style", "text-shadow: none");
+  document.getElementById("Atlantic").setAttribute("style", "text-shadow: none");
+  document.getElementById("Northeastern").setAttribute("style", "text-shadow: none");
 });
 
 $(document).mousemove(function(e) {

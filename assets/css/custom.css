@@ -125,9 +125,14 @@ html.sticky-header-reveal.sticky-header-active #header .header-transparent-custo
   text-align: right;
 }
 
+.map-text-custom > p{
+  margin-bottom: 1px;
+}
+
 @media screen and (max-width: 991px) {
   .map-text-custom{
     text-align: center;
+    margin-top: 3rem;
   }
 }
 
