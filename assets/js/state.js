@@ -46,7 +46,7 @@ $("path, circle").click(function(e) {
 
     document.getElementById("info_bio").innerHTML = curr_info[2]
 
-    document.getElementById("info_img").src = "./assets/img/team/" + curr_info[1];
+    document.getElementById("info_img").src = "../assets/img/team/" + curr_info[1];
     document.getElementById("info_img").alt = curr_info[0];
 
     document.getElementById("info_mail").href = "mailto:" + curr_info[3];
